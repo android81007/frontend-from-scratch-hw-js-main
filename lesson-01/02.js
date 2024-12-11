@@ -12,4 +12,3 @@ while (i <= 10) {
   factorial *= i++;
   console.log(factorial);
 }
-alert(factorial);

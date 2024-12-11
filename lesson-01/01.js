@@ -9,4 +9,3 @@ let i = 1;
     sum += i++;
     
   }
-  alert(sum);
