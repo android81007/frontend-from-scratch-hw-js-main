@@ -5,4 +5,10 @@
 */
 
 // your code
-let sum
+let sum = 1;
+let  i = 1;
+while (i <= 10) {
+  i++;
+ if (i % 2 === 1) sum += i;
+  console.log(sum);
+}
