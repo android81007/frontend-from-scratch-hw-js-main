@@ -7,8 +7,9 @@
 // your code
 let sum = 1;
 let  i = 1;
-while (i <= 20) {
+while (i < 20) {
   i++;
  if (i % 2 === 1) sum += i;
-  console.log(sum);
+  
 }
+console.log(sum);
