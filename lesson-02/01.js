@@ -8,20 +8,22 @@
 */
 
 // тестовые данные (значения можно менять)
-const isAdmin = false
-const isVerifiedUser = true
-const hasSpecialPermission = true
-const hasTemporaryPass = false
+const isAdmin = false;
+const isVerifiedUser = true;
+const hasSpecialPermission = true;
+const hasTemporaryPass = false;
 
-let isAccess = false
+let isAccess = false;
 
 // your code
 while (isAccess) {
-    if (isAdmin || isVerifiedUser ) {
+    if (isAdmin) {
         isAccess = false;
-    } else if (hasSpecialPermission || hasTemporaryPass){
+    } else if (isVerifiedUser){
         isAccess = false;
-    } else {
+    } else if (hasSpecialPermission){
+        isAccess = false;
+    }else {
         isAccess = true;
     }
 }
