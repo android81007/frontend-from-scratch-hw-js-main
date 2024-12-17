@@ -16,16 +16,16 @@ const hasTemporaryPass = false;
 let isAccess = false;
 
 // your code
-while (isAccess) {
+while (isAccess){
     if (isAdmin === true) {
-        isAccess = false;
-    } else if (isVerifiedUser === true){
-        isAccess = false;
-    } else if (hasSpecialPermission === true){
-        isAccess = false;
-    } else if (hasTemporaryPass === true){
-        isAccess = false;
-    }else {
         isAccess = true;
+    } else if (isVerifiedUser === true){
+        isAccess = true;
+    } else if (hasSpecialPermission === true){
+        isAccess = true;
+    } else if (hasTemporaryPass === true){
+        isAccess = true;
+    }else {
+        isAccess = false;
     }
 }
