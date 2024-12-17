@@ -17,11 +17,13 @@ let isAccess = false;
 
 // your code
 while (isAccess) {
-    if (isAdmin) {
+    if (isAdmin === true) {
         isAccess = false;
-    } else if (isVerifiedUser){
+    } else if (isVerifiedUser === true){
         isAccess = false;
-    } else if (hasSpecialPermission){
+    } else if (hasSpecialPermission === true){
+        isAccess = false;
+    } else if (hasTemporaryPass === true){
         isAccess = false;
     }else {
         isAccess = true;
