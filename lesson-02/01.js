@@ -17,18 +17,21 @@ let isAccess = false;
 
 // your code
 
-while (isAccess){
-    if (isAdmin === false) {
-        isAccess = false;
-    } else if (isVerifiedUser === true){
-        isAccess = false;
-    } else if (hasSpecialPermission === true){
-        isAccess = false;
-    } else if (hasTemporaryPass === false){
-        isAccess = false;
-    }else {
-        isAccess = true;
-    }
-}
+// while (isAccess){
+//     if (isAdmin === false) {
+//         isAccess = false;
+//     } else if (isVerifiedUser === true){
+//         isAccess = false;
+//     } else if (hasSpecialPermission === true){
+//         isAccess = false;
+//     } else if (hasTemporaryPass === false){
+//         isAccess = false;
+//     }else {
+//         isAccess = true;
+//     }
+// }
 
-// isAccess = isAdmin ? 'true!' : 'false!'
+isAccess = isAdmin ? true : false;
+isAccess = isVerifiedUser ? true : false;
+isAccess = hasSpecialPermission ? true : false;
+isAccess = hasTemporaryPass ? true : false;
