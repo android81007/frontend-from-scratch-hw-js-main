@@ -12,4 +12,4 @@ while (i < 20) {
  if (i % 2 === 1) sum += i;
   
 }
-console.log(sum);
+// console.log(sum);
