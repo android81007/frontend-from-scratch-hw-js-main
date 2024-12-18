@@ -16,6 +16,10 @@ const hasTemporaryPass = false;
 let isAccess;
 
 // your code
+isAccess = isAdmin || isVerifiedUser && hasSpecialPermission && hasTemporaryPass;
+
+
+
 
 // while (isAccess){
 //     if (isAdmin === false) {
@@ -31,7 +35,7 @@ let isAccess;
 //     }
 // }
 
-isAccess = isAdmin ? true : false;
-isAccess = isVerifiedUser ? true : false;
-isAccess = hasSpecialPermission ? true : false;
-isAccess = hasTemporaryPass ? true : false;
+// isAccess = isAdmin ? true : false;
+// isAccess = isVerifiedUser ? true : false;
+// isAccess = hasSpecialPermission ? true : false;
+// isAccess = hasTemporaryPass ? true : false;
