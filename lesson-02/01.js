@@ -17,7 +17,7 @@ let isAccess;
 
 // your code
 isAccess = (isAdmin || isVerifiedUser && hasSpecialPermission || hasTemporaryPass);
-console.log(isAccess);
+// console.log(isAccess);
 
 
 
