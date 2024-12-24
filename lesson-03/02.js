@@ -9,4 +9,4 @@ function isEven(point) {
         return isa = false;
     }
 }
-console.log(isa);
+// console.log(isa);
