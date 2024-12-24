@@ -4,4 +4,4 @@ function calculateAverage(number1,number2) {
  return result = (number1 + number2) / 2;
 }
 calculateAverage(4,10);
-console.log(result);
+// console.log(result);
