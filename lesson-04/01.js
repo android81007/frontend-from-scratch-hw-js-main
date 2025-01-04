@@ -12,12 +12,12 @@
 Пример использования:
 includesElement([1, 2, 3], 2)  // должен вернуть `true`.
 */
-const array = [22,33,15,"soks"];
-
+const array = [22,33,15];
+const element = "soks";
 let resulat =  includesElement(array)
 function includesElement(array) {
   for (let i = 0; i < array.length; i++) {
-    const element = "soks";
+    
     if (array[i] === element) {
       return true;
     }
