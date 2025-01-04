@@ -13,7 +13,7 @@
 includesElement([1, 2, 3], 2)  // должен вернуть `true`.
 */
 const array = [22,33,15];
-const element = "soks";
+const element = 15;
 let resulat =  includesElement(array)
 function includesElement(array) {
   for (let i = 0; i < array.length; i++) {
