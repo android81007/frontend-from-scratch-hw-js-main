@@ -14,8 +14,8 @@ includesElement([1, 2, 3], 2)  // должен вернуть `true`.
 */
 const array = [22,33,15];
 const element = 15;
-let resulat =  includesElement(array,element);
-function includesElement(array) {
+let resulat = includesElement(array,element);
+function includesElement(array,element) {
   for (let i = 0; i < array.length; i++) {
     
     if (array[i] === element) {
