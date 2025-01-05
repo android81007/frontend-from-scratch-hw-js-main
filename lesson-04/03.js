@@ -22,16 +22,15 @@ const stop = findCommonElements(array1, array2);
 function findCommonElements(array1, array2) {
     const commonElements = [];
  for (let i = 0; i < array1.length; i++ ) {
-
     if (includesElement(array2, array1[i]) ) {
         commonElements.push(array1[i]);
       }
 
-    // if(array1[i] === array2) {
+    // if (array1[i] === array2[2]) {
     //     commonElements.push(array1[i]);
     // }
  }
   return commonElements;
 
 }
-console.log(stop);
+// console.log(stop);
