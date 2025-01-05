@@ -28,4 +28,4 @@ function findUniqueElements(array) {
     return uniqueElements;
   }
 
-  console.log(resultat);
+//   console.log(resultat);
