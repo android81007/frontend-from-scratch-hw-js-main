@@ -26,4 +26,6 @@ const game = {
 }
 }
 let mmm = game.addResource('gold', 50);
+let iii = game.addResource('lumber', 30);
 console.log(mmm);
+console.log(iii);
