@@ -27,4 +27,4 @@ let grade;
   else {
     grade = "exit";
   }
-console.log(grade);
+// console.log(grade);
