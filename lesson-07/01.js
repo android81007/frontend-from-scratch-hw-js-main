@@ -15,5 +15,5 @@ function capitalizeWords(str) {
     }
     return words.join(' '); // Собираем слова обратно в строку
 }
-console.log(str);
+
 
