@@ -38,7 +38,7 @@ function map(array, callback) {
   }
   
   // Возвращаем новый массив с результатами
-  return result;
+  return result * 2;
 }
 
 сonsole.log(map)
