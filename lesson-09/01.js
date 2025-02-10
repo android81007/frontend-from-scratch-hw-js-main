@@ -22,5 +22,19 @@ const oddNumbers = filter(numbers, (element, index) => {
 
 console.log(oddNumbers) // Должен вывести: [1, 3, 5]
 */
-
-const filter = () => {}
+ 
+// const filter = () => {}
+const filter = (array, callback) => {
+  // Новый массив, в который будем добавлять подходящие элементы
+  const result = [];
+  
+  // Проходим по каждому элементу массива
+  for (let i = 0; i < array.length; i++) {
+    // Вызываем callback для каждого элемента с его значением и индексом
+    if (callback(array[i], i)) {
+      result.push(array[i]);  // Если callback возвращает true, добавляем элемент в новый массив
+    }
+  }
+  
+  return result;  // Возвращаем отфильтрованный массив
+};
